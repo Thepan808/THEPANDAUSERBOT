@@ -208,11 +208,11 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 text=lege_nd,
                 buttons=[
                     [
-                        custom.Button.inline("📝 Request 📝", data="req"),
-                        custom.Button.inline("💬 Chat 💬", data="chat"),
+                        custom.Button.inline("📝 Pedir 📝", data="req"),
+                        custom.Button.inline("💬 Bater papo 💬", data="chat"),
                     ],
                     [custom.Button.inline("🚫 Spam 🚫", data="heheboi")],
-                    [custom.Button.inline("Curious ❓", data="pmclick")],
+                    [custom.Button.inline("Curioso ❓", data="pmclick")],
                 ],
             )
 
@@ -531,7 +531,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
         buttons.append([custom.Button.inline(f"{legend_emoji1} Help Menu {legend_emoji2}", data=f"page({page})")])
         if event.query.user_id == bot.uid or event.query.user_id in Config.SUDO_USERS:
             await event.edit(
-                f"**📗 𝙵𝚒𝚕𝚎 :**  `{commands}`\n**🔢 Total Commands :**  `{len(CMD_HELP_BOT[commands]['commands'])}`",
+                f"**📗 𝙵𝚒𝚕𝚎 :**  `{commands}`\n**🔢 Total Comandos :**  `{len(CMD_HELP_BOT[commands]['commands'])}`",
                 buttons=buttons,
                 link_preview=False,
             )
