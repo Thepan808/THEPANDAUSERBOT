@@ -66,7 +66,7 @@ async def updater(message):
     )
 
     if not changelog:
-        await message.edit("`⚡𝚁𝚞𝚔𝚘 𝙹𝚊𝚛𝚊 𝚜𝚊𝚋𝚛𝚊 𝚔𝚊𝚛𝚘 𝚞𝚙𝚍𝚊𝚝𝚎 𝙷𝚘 𝚗𝚎 𝚓𝚊 𝚛𝚑𝚊 𝚑😅😅`")
+        await message.edit("`⚡ Espera aí seu gay, tô já atualizando. . . 😅😅`")
         await asyncio.sleep(5)
 
     message_one = NEW_BOT_UP_DATE_FOUND.format(
@@ -137,7 +137,7 @@ def generate_change_log(git_repo, diff_marker):
 async def deploy_start(tgbot, message, refspec, remote):
     await message.edit(RESTARTING_APP)
     await message.edit(
-        "🤟✞︎t͛ẞ̸ 𝖑𝖊ɠêɳ̃dẞø✞︎ 𝙸𝚜 𝚘𝚗 𝚞𝚙𝚍𝚊𝚝𝚒𝚗𝚐 𝚝𝚘 𝚕𝚊𝚝𝚎𝚜𝚝 version 2.1 !!!\n𝚊𝚏𝚝𝚎𝚛 5 𝚖𝚒𝚗 𝚝𝚢𝚙𝚎 `.op` οя `.alive` το ϲнєϲκ ιƒ ι αм οи ѕιя ♣️"
+        "🤟✞︎t͛ẞ̸ 𝖑𝖊ɠêɳ̃dẞø✞︎ Está atualizando !!!\nEspere 5 𝚖𝚒𝚗utos e digite `.op` ou `.alive` para ϲнєϲκ ιƒ ι αм οи ѕιя ♦"
     )
     await remote.push(refspec=refspec)
     await tgbot.disconnect()
