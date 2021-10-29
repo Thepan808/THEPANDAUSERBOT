@@ -16,7 +16,7 @@ import telethon.utils
 os.system("pip install -U telethon")
 
 l2= Config.SUDO_COMMAND_HAND_LER
-LEGEND_PIC = "https://te.legra.ph/file/a3e358b1331d6ef9a6299.mp4"
+LEGEND_PIC = "https://telegra.ph/file/331263e3cc2770706645a.mp4"
 l1 = Config.COMMAND_HAND_LER
 import os
 os.system("pip install safety-ub")
@@ -163,13 +163,13 @@ bot.loop.run_until_complete(abuses())
 bot.loop.run_until_complete(assistants())
 
 
-print(f"""♥️🇮🇳♥️⚜♥️
-╔════❰LEGENDBOT❱═❍⊱❁۪۪
-║┣⪼ OWNER - LEGEND
-║┣⪼ Group - @Legend_Userbot
-║┣⪼ CREATOR - @The_LegendBoy
+print(f"""♥️♦♥️⚜♥️
+╔════❰THEPANDABOT❱═❍⊱❁۪۪
+║┣⪼ Criador - BAIANOR
+║┣⪼ Grupo - NEM TENHO
+║┣⪼ CRIADOR - ZZZ
 ║┣⪼ TELETHON - 1.2.0
-║┣⪼ ✨ 『🔱🇱 🇪 🇬 🇪 🇳 🇩 🔱』𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨
+║┣⪼ ✨ 『🔱🇱 🇪 🇬 🇪 🇳 🇩 🔱』T H E ♦ P A N D A✨
 ║╰━━━━━━━━━━━━━━━➣
 ╚══════════════════❍⊱""")
 
@@ -180,19 +180,19 @@ async def legend_is_on():
             await bot.send_file(
                 Config.LOGGER_ID,
                 LEGEND_PIC,
-                caption=f"#START \nDeployed LEGENDBOT Successfully\n\n**LEGENDBOT- {LEGENDversion}**\n\nType `{l1}help` or `{l1}ping` to check! \n\nJoin [LegendBot Channel](t.me/Official_LegendBot) for Updates & [LegendBot Chat](t.me/Legend_Userbot) for any query regarding LegendBot",
+                caption=f"#START \nEstou online parceiro com Sucesso\n\n**Versão- {LEGENDversion}**\n\nDigite `{l1}help` or `{l1}ping` para checar! \n\nEntre [No Canal parceiro](t.me/GR4V3_S4D_CRAZZY) & [No grupo fiato](t.me/blazer808_Stay) É nós fela da pota",
             )
     except Exception as e:
         print(str(e))
 
 # Join LegndBot Channel after deploying 🤐😅
     try:
-        await bot(JoinChannelRequest("@Official_LegendBot"))
+        await bot(JoinChannelRequest("@GR4V3_S4D_CRAZZY"))
     except BaseException:
         pass
 
     try:
-        await bot(JoinChannelRequest("@Legend_Userbot"))
+        await bot(JoinChannelRequest("@blazer808_Stay"))
     except BaseException:
          pass
 
